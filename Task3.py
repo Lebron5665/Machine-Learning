@@ -26,7 +26,7 @@ num_classes = len(class_names)
 class_to_idx = {c: i for i, c in enumerate(class_names)}
 
 img_size = 224
-batch_size = 64          # ResNet50 比较大，64 更稳；显存不够可改32
+batch_size = 64          # ResNet50 比较大，64 更稳；
 epochs = 20              # 每折20轮，3折总算力可控
 n_splits = 3
 base_lr = 3e-4
